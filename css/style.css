@@ -158,6 +158,11 @@ a {
     color: black;
 }
 
+.c-nav-ul__li--selected, .c-nav-ul__li--selected a:link, .c-nav-ul__li--selected a:visited  {
+    font-weight: 700;
+    text-decoration: underline !important; /*bad practice, specificity =*/
+}
+
 .c-sectionGrid {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
