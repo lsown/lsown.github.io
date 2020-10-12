@@ -32,6 +32,12 @@ body {
 
 a {
     cursor: pointer;
+    color: blue;
+}
+
+a:hover, a:visited {
+    cursor: pointer;
+    color: teal;
 }
 
 /* || Universal Objects */
@@ -110,7 +116,7 @@ a {
 }
 
 .c-LSO-logo:hover, .c-LSO-logo:focus {
-    filter: invert(8%) sepia(99%) saturate(7037%) hue-rotate(246deg) brightness(94%) contrast(146%);
+    filter: invert(29%) sepia(82%) saturate(1403%) hue-rotate(152deg) brightness(94%) contrast(104%);
 }
 
 .c-headerWrap__right {
@@ -147,8 +153,7 @@ a {
 
 .c-nav-ul__li a:hover {
     text-decoration: underline;
-    background-color: white;
-    color: black;
+    color: #008080;
     transition: 1s ease;
 }
 
@@ -174,7 +179,7 @@ a {
     grid-row: 1 / 2;
     /*border: 1px solid grey;*/
     padding-right: 25%;
-    margin: 0 2em 2em 2em;
+    margin: 0 2em 5em 2em;
 }
 
 .c-sectionGrid__top p {
@@ -188,7 +193,7 @@ a {
     grid-row: 2 / 3;
     text-align: center;
     /*border: 1px solid grey;*/
-    padding: 1rem;
+    padding: 4em 1em;
     background-color: rgb(224, 224, 224);
 }
 
@@ -214,11 +219,11 @@ a {
 
 .c-logoGrid__img--style {
     height: 50px;
-    max-width: 80%;
+    max-width: 60%;
 }
 
 .c-logoGrid__img--style:hover, .c-logoGrid__img--style:focus {
-    filter: invert(8%) sepia(99%) saturate(7037%) hue-rotate(246deg) brightness(94%) contrast(146%);
+    filter: invert(29%) sepia(82%) saturate(1403%) hue-rotate(152deg) brightness(94%) contrast(104%);
 }
 
 /* Publications related */
@@ -241,17 +246,20 @@ a {
 }
 
 .c-pub-sectionGrid__info a {
-    color: teal;
+    color: black;
     text-decoration: none;
 }
 
-.c-pub-sectionGrid__info a:hover {
-    color: darkred;
+.c-pub-sectionGrid__info a:link, .c-pub-sectionGrid__info a:visited {
+    color: black;
 }
 
-.c-pub-sectionGrid__info a:active {
-    color: red;
+.c-pub-sectionGrid__info a:hover, .c-pub-sectionGrid__info a:active {
+    color: teal;
+    text-decoration: underline;
+    transition: 0.5s ease;
 }
+
 
 .c-pub-sectionGrid__info--journalstyle {
     font-style: italic;
@@ -282,12 +290,14 @@ a {
 
 .c-proj-grid-a:link, .c-proj-grid-a:visited {
     text-decoration: none;
+    color: black;
 }
 
 .c-proj-grid-a:hover, .c-proj-grid-a:active {
     opacity: 70%;
     text-decoration: underline;
     transition: 1s ease;
+    color: teal;
 }
 
 .c-proj-grid-h1 {
@@ -343,7 +353,7 @@ a {
     grid-template-columns: 1fr 5fr;
     row-gap: 1.2em;
     margin: 1em 2em 1em 2em;
-    gap: 2em;
+    gap: 1.5em;
 }
 
 .c-exp-sectionGrid__date {
@@ -414,7 +424,7 @@ a {
 }
 
 .c-footer-logo:hover, .c-footer-logo:focus {
-    filter: invert(8%) sepia(99%) saturate(7037%) hue-rotate(246deg) brightness(94%) contrast(146%);
+    filter: invert(29%) sepia(82%) saturate(1403%) hue-rotate(152deg) brightness(94%) contrast(104%);
 }
 
 hr {
