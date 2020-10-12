@@ -305,14 +305,14 @@ a {
 
 .c-about-flex {
     display: flex;
-    flex-flow: row;
+    flex-flow: row wrap;
     margin: 1em;
     justify-content: space-between;
     align-items: center;
 }
 
 .c-about-flex__left {
-    flex: auto;
+    flex: 1 1 60%;
     padding: 1em;
     line-height: 2rem;
 }
@@ -327,6 +327,8 @@ a {
     height: 200px;
     margin: 0; /*centering related */
     display: block; /*centering related */
+    border: 2px solid black;
+    border-radius: 5%;
 }
 
 /* Experience section */
