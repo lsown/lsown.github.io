@@ -37,7 +37,7 @@ a {
 
 a:hover, a:visited {
     cursor: pointer;
-    color: teal;
+    color: maroon;
 }
 
 /* || Universal Objects */
@@ -116,7 +116,7 @@ a:hover, a:visited {
 }
 
 .c-LSO-logo:hover, .c-LSO-logo:focus {
-    filter: invert(29%) sepia(82%) saturate(1403%) hue-rotate(152deg) brightness(94%) contrast(104%);
+    filter: invert(8%) sepia(100%) saturate(7266%) hue-rotate(248deg) brightness(96%) contrast(144%);
 }
 
 .c-headerWrap__right {
@@ -153,7 +153,7 @@ a:hover, a:visited {
 
 .c-nav-ul__li a:hover {
     text-decoration: underline;
-    color: #008080;
+    color: blue;
     transition: 1s ease;
 }
 
@@ -223,7 +223,7 @@ a:hover, a:visited {
 }
 
 .c-logoGrid__img--style:hover, .c-logoGrid__img--style:focus {
-    filter: invert(29%) sepia(82%) saturate(1403%) hue-rotate(152deg) brightness(94%) contrast(104%);
+    filter: invert(8%) sepia(100%) saturate(7266%) hue-rotate(248deg) brightness(96%) contrast(144%);
 }
 
 /* Publications related */
@@ -246,16 +246,16 @@ a:hover, a:visited {
 }
 
 .c-pub-sectionGrid__info a {
-    color: black;
+    color: blue;
     text-decoration: none;
 }
 
 .c-pub-sectionGrid__info a:link, .c-pub-sectionGrid__info a:visited {
-    color: black;
+    color: blue;
 }
 
 .c-pub-sectionGrid__info a:hover, .c-pub-sectionGrid__info a:active {
-    color: teal;
+    color: maroon;
     text-decoration: underline;
     transition: 0.5s ease;
 }
@@ -297,7 +297,7 @@ a:hover, a:visited {
     opacity: 70%;
     text-decoration: underline;
     transition: 1s ease;
-    color: teal;
+    color: blue;
 }
 
 .c-proj-grid-h1 {
@@ -424,7 +424,7 @@ a:hover, a:visited {
 }
 
 .c-footer-logo:hover, .c-footer-logo:focus {
-    filter: invert(29%) sepia(82%) saturate(1403%) hue-rotate(152deg) brightness(94%) contrast(104%);
+    filter: invert(8%) sepia(100%) saturate(7266%) hue-rotate(248deg) brightness(96%) contrast(144%);
 }
 
 hr {
