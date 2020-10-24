@@ -316,6 +316,12 @@ a:hover, a:visited {
     display: block;
 }
 
+/* Subproject Styles */
+
+.c-subproj-ul {
+    list-style: inside;
+}
+
 /* About section */
 
 .c-about-flex {
@@ -359,28 +365,35 @@ a:hover, a:visited {
 .c-exp-sectionGrid__date {
 }
 
+.c-exp-sectionGrid__info {
+    line-height: 1.6em;
+}
+
 .c-exp-sectionGrid__info h1 {
     font-size: 1.3em;
     font-weight: 300;
     line-height:1.3em;
 }
 
-.c-exp-sectionGrid__info p {
-    line-height: 1.5em;
+.c-exp-sectionGrid__info ul {
+    display: inline-block;
+}
+
+.c-exp-sectionGrid__info ul {
+    padding-left: 0rem; /*moves the bullets over so it's roughly in-line with our header & text */
+    margin-left: 1rem;
+    
 }
 
 .c-exp-sectionGrid__info li {
-    list-style-type: none;
+    list-style-type: circle;
+    list-style-position: outside;;
     position: relative;    /* It's needed for setting position to absolute in the next rule. */
+    text-align: left;
+    margin-bottom: 0.2rem;
 }
 
-.c-exp-sectionGrid__info li::before {
-    content: '•';
-    position: absolute;
-    left: -1em;          /* Adjust this value so that it appears where you want. */
-    font-size: 1em;      /* Adjust this value so that it appears what size you want. */
-    text-align: center;
-}
+
 
 /* Footer */
 
