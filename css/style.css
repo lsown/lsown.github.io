@@ -318,9 +318,50 @@ a:hover, a:visited {
 
 /* Subproject Styles */
 
-.c-subproj-ul {
-    list-style: inside;
+.c-projntx-flexWrap {
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: space-between;
+    margin: 2em;
 }
+
+.c-projntx-flexItem h2 {
+    margin-bottom: 1rem;
+}
+
+.c-projntx-flexItem {
+    flex: initial;
+    margin-bottom: 2em;
+}
+
+.c-projntx-ul {
+    list-style: inside;
+    margin-left: 0.5rem;
+}
+
+.c-projntx-gridWrap {
+    display: flex;
+    flex-flow: row wrap;
+    align-items: stretch;
+}
+
+.c-projntx-gridWrap-left {
+    flex: 0 0 200px;
+    margin: 1em;
+}
+
+.c-projntx-gridWrap-right {
+    flex: 1 1 400px;
+}
+
+.c-projntx-img {
+    display: inline-block;
+    vertical-align: middle;
+    margin-right: 1rem;
+    max-width: 200px;
+    transition: 0.25s ease;
+}
+
 
 /* About section */
 
