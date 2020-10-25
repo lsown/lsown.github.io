@@ -342,23 +342,24 @@ a:hover, a:visited {
 .c-projntx-gridWrap {
     display: flex;
     flex-flow: row wrap;
-    align-items: stretch;
+    align-items: space-around;
 }
 
 .c-projntx-gridWrap-left {
-    flex: 0 0 200px;
+    flex: initial;
     margin: 1em;
 }
 
 .c-projntx-gridWrap-right {
-    flex: 1 1 400px;
+    flex: 1 1 60%;
+    padding: 1em;
+    line-height: 2rem;
 }
 
 .c-projntx-img {
-    display: inline-block;
-    vertical-align: middle;
+    display: block;
     margin-right: 1rem;
-    max-width: 200px;
+    max-width: 300px;
     transition: 0.25s ease;
 }
 
